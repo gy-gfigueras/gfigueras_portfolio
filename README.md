@@ -1,8 +1,11 @@
-# React + Vite
+# GFIGUERAS PORTFOLIO
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![version](https://img.shields.io/badge/version-0.0.1-magenta?style=for-the-badge)
+[![developer](https://img.shields.io/badge/developed-GYCoding-purple?style=for-the-badge)](https://github.com/GY-CODING)
+[![website](https://img.shields.io/badge/Web-gycoding-magenta?style=for-the-badge)](https://gycoding.com)
 
-Currently, two official plugins are available:
+This is the **[GFIGUERAS](https://gfigueras.com)** official website project.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<br>
+
+<pre align="center"><b>GFIGUERAS 2024</b></pre>
