@@ -1,0 +1,159 @@
+
+.main-page{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../assets/background.png');
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    /* filter: invert() hue-rotate(20deg); */
+}
+
+.main-page-body{
+    display: flex;
+    width: 100%;
+    height: 92%;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.left-side{
+    width:50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right-side{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-right: 10%;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    gap:.2rem;
+}
+
+.social-network{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row;
+}
+
+.social-item{
+    font-size: 40px;
+    
+}
+
+.title{
+    color: rgb(226, 226, 226);
+    font-size: 60px;
+    line-height: 2rem;
+    font-family: 'ArcaMajora3-Heavy';
+    position: ab;
+    /* filter: drop-shadow(0px 0px 10px rgba(255, 255, 255, 0.22)); */
+
+}
+
+.title .soft-text{
+    font-size: 30px;
+    background: var(--gy-gradient);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-family: 'Lexend-medium';
+}
+
+.letter-purple{
+    background: var(--gy-gradient);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.lottie-animation{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin-left: 20%;
+     filter:  hue-rotate(20deg);
+}
+.lottie-animation svg{
+    width: 100%;
+    height: 100%;
+}
+
+.lottie-animation svg g{
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 1605px) {
+    .title{
+        font-size: 50px;
+    }
+    .title .soft-text{
+        font-size: 25px;
+    }
+}
+@media screen and (max-width: 1290px) {
+    .title{
+        font-size: 40px;
+        line-height: 1.5rem;
+    }
+    .title .soft-text{
+        font-size: 20px;
+    }
+    .social-item{
+        font-size: 30px;
+        
+    }
+    .right-side{
+        margin-right: 0%;
+    
+    }
+}
+@media screen and (max-width: 1405px) {
+   .lottie-animation{
+    margin-left: 10%;
+   }
+}
+@media screen and (max-width: 950px) {
+    .title{
+        font-size: 30px;
+        line-height: 1.5rem;
+    }
+    .title .soft-text{
+        font-size: 18px;
+    }
+    .social-item{
+        font-size: 22px;
+        
+    }
+ }
+
+ @media screen and (max-width: 800px) {
+    .main-page-body{
+        flex-direction: column;
+    }
+
+    .left-side{
+        position: absolute;
+        width: 100%;
+        filter: brightness(.2);
+    }
+    .right-side{
+        width: 100%;
+        z-index: 1;
+    }
+    .social-item{
+        font-size: 25px;
+        
+    }
+ }
