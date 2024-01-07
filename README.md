@@ -1,8 +1,8 @@
 # GFIGUERAS PORTFOLIO
 
 ![version](https://img.shields.io/badge/version-0.0.1-magenta?style=for-the-badge)
-[![developer](https://img.shields.io/badge/developed-GYCoding-purple?style=for-the-badge)](https://github.com/GY-CODING)
-[![website](https://img.shields.io/badge/Web-gycoding-magenta?style=for-the-badge)](https://gycoding.com)
+[![developer](https://img.shields.io/badge/developed-GYCoding-purple?style=for-the-badge)](https://github.com/Gfigueras03)
+[![website](https://img.shields.io/badge/Web-gycoding-magenta?style=for-the-badge)](https://gfigueras.com)
 
 This is the **[GFIGUERAS](https://gfigueras.com)** official website project.
 
