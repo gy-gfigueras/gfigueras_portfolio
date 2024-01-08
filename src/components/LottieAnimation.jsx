@@ -8,7 +8,7 @@ export function LottieAnimation(){
     return (
         <>  
         <Parallax />
-        <Lottie className='lottie-animation parallax' speed="2" animationData={animationData} />
+        <Lottie className='lottie-animation parallax' speed="1" animationData={animationData} />
         </>
     )
 }

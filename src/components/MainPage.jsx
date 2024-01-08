@@ -18,7 +18,7 @@ export function MainPage() {
                     <LottieAnimation  />
                 </div>
                 <div className="right-side">
-                    <h1 className='title parallax' speed="1">
+                    <h1 className='title parallax' speed="3">
                         <span className='letter-purple'>G</span>UILLERMO <span className='letter-purple'>F</span>IGUERAS <br />
                         <span className='soft-text'>
                         <Typed
