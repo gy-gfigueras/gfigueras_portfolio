@@ -19,11 +19,31 @@ header {
 
 .li-navbar-item {
   list-style-type: none;
+  border-bottom: 2px solid transparent;
+  transition: .5s;
+  padding-bottom: 5px;
+
 }
 .li-navbar-item a {
   text-decoration: none;
   color: white;
   font-family: "Lexend-Bold";
+  transition: .5s;
+
+ 
+
+}
+
+.li-navbar-item:hover{
+  border-bottom: 2px solid purple;
+  transition: .5s;
+}
+
+.li-navbar-item:hover a{
+  filter: drop-shadow(0 0 10px rgb(103, 0, 96));
+  color: var(--gy-magenta) ;
+  transition: .5s;
+
 }
 
 .header-logo {

@@ -1,3 +1,4 @@
+import { useState, useEffect } from 'react';
 import '../styles/mainPage.css'
 import { Navbar } from './Navbar'
 import { Parallax } from './Parallax'
@@ -13,12 +14,12 @@ export function MainPage() {
         <section className='main-page'>
             <Parallax/>
             <Navbar />
-            <section className="main-page-body">
+            <section className='main-page-body'>
                 <div className="left-side">
                     <LottieAnimation  />
                 </div>
                 <div className="right-side">
-                    <h1 className='title parallax' speed="3">
+                    <h1 className='title parallax' speed="2">
                         <span className='letter-purple'>G</span>UILLERMO <span className='letter-purple'>F</span>IGUERAS <br />
                         <span className='soft-text'>
                         <Typed
@@ -27,12 +28,12 @@ export function MainPage() {
                 />
                         </span>
                     </h1>
-                    <div className='social-network parallax' speed="1" >
+                    <div className='social-network parallax' speed="2" >
                     <FaLinkedin className='social-item' />
                     <FaSquareGithub className='social-item' />
                     </div>
-                </div>
 
+                </div>
 
             </section>
         </section>
