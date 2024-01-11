@@ -7,11 +7,9 @@ import { FaLinkedin, FaSquareGithub } from "react-icons/fa6";
 import Typed from 'react-typed'
 import { LottieAnimation } from './LottieAnimation'
 
-
-
 export function MainPage() {
     return (
-        <section className='main-page'>
+        <section className='main-page' id='main'>
             <Parallax/>
             <Navbar />
             <section className='main-page-body'>

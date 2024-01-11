@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useEffect } from 'react';
 export const Parallax = () => {
     const handleMouseMove = (e) => {
         document.querySelectorAll(".parallax").forEach(function (move) {

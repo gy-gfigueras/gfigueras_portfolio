@@ -1,0 +1,42 @@
+.third-page{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .celdas {
+    width: 90%;
+    height: 85%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+  }
+  
+  .celda {
+    padding: 1rem;
+    border: 2px solid rgba(113, 128, 150, 0.1);
+    border-radius: 0.5rem;
+    background-color: rgba(157, 157, 157, 0.15);
+    backdrop-filter: blur(20px);
+    transition: .3s linear;
+  }
+
+  .celda:hover{
+    background-color: rgba(157, 157, 157, 0.15);
+    transition: .3s linear;
+
+  }
+  
+  .col-span-2 {
+    grid-column: span 2;
+  }
+
+  /* .third-page .celdas .celda:nth-child(4) {
+   
+    box-shadow: 0 0 20px rgba(255, 0, 0, 0.253);
+}
+   */
+  /* Puedes agregar más estilos según tus necesidades */
+  

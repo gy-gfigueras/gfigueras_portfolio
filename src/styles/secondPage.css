@@ -1,0 +1,237 @@
+.second-page {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.second-page-header {
+    width: 100%;
+    height: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.second-page-body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.left-side-about {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: start;
+    gap: 1rem;
+}
+
+.left-side-about h1 {
+    font-size: 40px;
+    margin-left: 10%;
+    font-family: 'lexend';
+    position: relative;
+    border-bottom: 4px solid purple;
+    margin-left: 10%;
+    align-self: start;
+}
+
+.left-side-about p {
+    padding-left: 10%;
+    padding-right: 5%;
+    font-family: 'lexend';
+    letter-spacing: 1px;
+    shape-outside: circle(55%);
+}
+
+.right-side-about {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.profile-img {
+    height: 50%;
+    filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.575));
+    border-radius: 50%;
+    background-color: rgba(213, 213, 213, 0.763);
+    transition: .4s;
+    border: 2px solid black;
+}
+.profile-img:hover{
+    background-color: rgba(158, 158, 158, 0.763);
+    transition: .5 linear;
+    border: 2px solid white;
+
+
+}
+
+.download-cv {
+    padding: 15px;
+    backdrop-filter: blur(20px);
+    background-color: rgba(255, 255, 255, 0.143);
+    border-radius: 15px;
+    border: 0px solid white;
+    align-self: flex-start;
+    margin-left: 10%;
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+    filter: drop-shadow(0 0 10px black);
+    transition: .5s;
+    font-family: 'lexend';
+    border: 2px solid transparent;
+    display: flex;
+    text-align: center;
+    align-items: center;
+
+}
+
+
+.download-cv:hover{
+    filter: drop-shadow(0 0 10px rgb(255, 0, 234));
+    transition: .5s;
+    border: 2px solid rgba(255, 255, 255, 0.252);
+
+}
+
+.download-cv::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: rgba(255, 0, 247, 0.322);
+    transition: 0.5s;
+    border-radius: 15px;
+    z-index: 1;
+    animation: moverse 2s forwards;
+    filter: blur(30px);
+}
+
+@keyframes moverse {
+    from{
+        top: 400px;
+        left: -300px;
+    }to{
+        top: 0;
+        left: 0;
+    }
+    
+}
+.download-cv:hover::after {
+ 
+    width: 100%;
+    transition: .5s;
+
+}
+
+
+@media screen and (max-width: 950px) {
+
+    .left-side-about h1 {
+        font-size: 20px;
+        font-family: 'lexend';
+        position: relative;
+        border-bottom: 4px solid purple;
+        align-self: center;
+        margin: 0;
+    }
+
+    .left-side-about p {
+        font-size: 13px;
+        text-align: left;
+    }
+
+    .left-side-about p {
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: center;
+    }
+
+    .download-cv {
+        align-self: center;
+        margin: 0;
+    }
+    .profile-img{
+        height: 40%;
+
+        
+    }
+
+}
+
+
+@media screen and (max-width: 600px) {
+    .second-page-body {
+        flex-direction: column-reverse;
+    }
+    .right-side-about{
+        height: 30% !important;
+    }
+
+    .left-side-about {
+        width: 100%;
+        height: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0;
+
+    }
+
+    .right-side-about {
+        width: 100%;
+        height: 50%;
+    }
+    
+
+    .left-side-about p {
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: center;
+        padding: 10px;
+        font-size: 12px;
+    }
+
+    .left-side-about h1 {
+        padding: 0;
+        margin: 0;
+    }
+    .profile-img{
+        height: 80%;
+        
+    }
+
+    .download-cv{
+        font-size: 10px;
+        align-items: center;
+    }
+}
+
+@media screen and (min-height: 1100px) and (orientation: portrait) {
+    .profile-img{
+        height: 20%;
+        
+    }
+}
+
+@media screen and (max-width: 950px) and (orientation:portrait) and (max-height: 700px){
+
+    .profile-img{
+        height: 70%;
+        
+    }
+
+}

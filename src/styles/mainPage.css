@@ -1,28 +1,8 @@
 
-
-.main-page-body{
-    width: 100vw;
-    height: 100vh;
-    background-image: url('../assets/background.png');
-    background-repeat: no-repeat;
-    display: flex;
-    flex-direction: column; 
-}
-
-.main-page{
-    width: 100vw;
-    height: 100vh;
-    background-image: url('../assets/background.png');
-    background-repeat: no-repeat;
-    display: flex;
-    flex-direction: column;
-    /* filter: invert() hue-rotate(20deg); */
-}
-
 .main-page-body{
     display: flex;
     width: 100%;
-    height: 92%;
+    height: 100vh;
     flex-direction: column;
     justify-content: center;
     
@@ -81,6 +61,7 @@
     -webkit-background-clip: text;
     color: transparent;
     font-family: 'Lexend-medium';
+    letter-spacing: 2px;
 }
 
 .letter-purple{

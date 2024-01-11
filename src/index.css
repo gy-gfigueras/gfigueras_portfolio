@@ -88,9 +88,11 @@ body {
   display: flex;
 
   width: 100vw;
-  height: 100vh;
+  height: 300vh;
 
   overflow-x:hidden ;
+  background-image: url("./assets/background.png");
+  background-size: cover;
 }
 
 html {

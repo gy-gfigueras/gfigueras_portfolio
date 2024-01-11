@@ -1,10 +1,13 @@
-header {
+.header {
   width: 100%;
   height: 8%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
+  z-index: 5;
+  backdrop-filter: blur(10px);
 }
 
 .ul-navbar {
@@ -15,6 +18,13 @@ header {
   justify-content: end;
   padding-right: 2%;
   gap: 1rem;
+}
+.image-link{
+  height: 100%;
+  padding-left: 2%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .li-navbar-item {
@@ -29,9 +39,6 @@ header {
   color: white;
   font-family: "Lexend-Bold";
   transition: .5s;
-
- 
-
 }
 
 .li-navbar-item:hover{
@@ -55,7 +62,7 @@ header {
   .ul-navbar {
     display: none;
   }
-  header{
+  .header{
     width: 100%;
     display: flex;
     align-items: center;
