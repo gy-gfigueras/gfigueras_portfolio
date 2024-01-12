@@ -21,8 +21,10 @@ export function MainPage() {
                         <span className='letter-purple'>G</span>UILLERMO <span className='letter-purple'>F</span>IGUERAS <br />
                         <span className='soft-text'>
                         <Typed
-                    strings={['SOFTWARE DEVELOPER']}
+                    strings={['SOFTWARE DEVELOPER', 'FRONTEND DEVELOPER']}
                     typeSpeed={55}
+                    backSpeed={40}
+                    
                 />
                         </span>
                     </h1>

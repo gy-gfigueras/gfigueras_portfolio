@@ -91,10 +91,17 @@ body {
   height: 300vh;
 
   overflow-x:hidden ;
-  background-image: url("./assets/background.png");
+  background-image: url("./assets/background.png"); 
   background-size: cover;
 }
 
 html {
 	scroll-behavior: smooth;
 }
+
+@media (max-width: 480px) {
+	body{
+		height: 400vh;
+	}
+  }
+
