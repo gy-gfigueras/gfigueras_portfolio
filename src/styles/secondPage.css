@@ -4,6 +4,17 @@
     display: flex;
     flex-direction: column;
 
+    view-timeline-name: --animation ;
+    view-timeline-axis: block;
+
+    animation-timeline: --animation;
+    animation-name: show;
+
+    animation-range: entry -30% cover 100%;
+    animation-fill-mode: both;
+    transform-origin: top center;
+
+
 }
 
 .second-page-header {

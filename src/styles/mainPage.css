@@ -37,11 +37,22 @@
     justify-content: start;
     align-items: center;
     flex-direction: row;
-    gap: 1rem;
+    gap: .5rem;
 }
 
 .social-item{
     font-size: 40px;
+    color: rgba(255, 255, 255, 0.391);
+    transition: .4s linear;
+    cursor: pointer;
+}
+
+.social-item:hover{
+    font-size: 40px;
+    color: rgba(255, 255, 255, 0.816);
+    transition: .4s linear;
+
+
     
 }
 

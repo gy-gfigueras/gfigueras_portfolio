@@ -29,8 +29,13 @@ export function MainPage() {
                         </span>
                     </h1>
                     <div className='social-network parallax' speed="2" >
-                    <FaLinkedin className='social-item' />
-                    <FaSquareGithub className='social-item' />
+                        <a target='_blank' rel="noreferrer noopener" href="https://www.linkedin.com/in/gfigueras/">
+                            <FaLinkedin className='social-item' />
+                        </a>
+                        <a target='_blank' rel="noreferrer noopener" href="https://github.com/gfigueras03">
+                            <FaSquareGithub className='social-item' />
+
+                        </a>
                     </div>
 
                 </div>

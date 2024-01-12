@@ -15,7 +15,6 @@ import { FaApple } from "react-icons/fa";
 import { FaLinux } from "react-icons/fa";
 
 
-
 export function ThirdPage() {
 
     useEffect(() => {
@@ -31,6 +30,7 @@ export function ThirdPage() {
     return (
         <section id='skills' className='third-page'>
             <h1 className='title'>PROJECTS AND SKILLS</h1>
+
             <div className="celdas">
 
             <div className="celda tiltCard"  >
@@ -44,7 +44,8 @@ export function ThirdPage() {
                 </div>
 
                 <div className="celda tiltCard">
-                    
+                <a target='_blank' rel="noreferrer noopener" className='links' href="https://github.com/GFigueras03/PracticaObligariaUniversos"></a>
+
                 </div>
 
                 <div className={`celda tiltCard`}  >
@@ -61,7 +62,8 @@ export function ThirdPage() {
                     </div>
                 </div>
                 <div className="celda tiltCard"  >
-                    {/* <img className='gycoding-page-image' src={gycoding} alt='' /> */}
+                    <a target='_blank' rel="noreferrer noopener" className='links' href="https://gycoding.com"></a>
+
                 </div>
 
                 <div className="celda tiltCard" >
@@ -74,6 +76,7 @@ export function ThirdPage() {
                 </div>
 
                 <div className="celda tiltCard" >
+                    <a target='_blank' rel="noreferrer noopener" className='links' href="https://github.com/GY-CODING/login-server"></a>
                 </div>
 
 
