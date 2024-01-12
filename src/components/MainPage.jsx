@@ -1,4 +1,3 @@
-import { useState, useEffect } from 'react';
 import '../styles/mainPage.css'
 import { Navbar } from './Navbar'
 import { Parallax } from './Parallax'

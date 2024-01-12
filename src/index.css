@@ -91,7 +91,7 @@ body {
   height: 315vh;
 
   overflow-x:hidden ;
-  background-image: url("./assets/background.png"); 
+  background-image: url("./assets/background.webp"); 
   background-size: cover;
 }
 
