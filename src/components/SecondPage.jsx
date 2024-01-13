@@ -1,6 +1,6 @@
 import '../styles/secondPage.css'
 import profileImage from '../assets/profileImage3.webp'
-import cvPDF from '../assets/CV-GFIGUERAS.pdf';
+import cvPDF from '../assets/cv_gfigueras.pdf';
 
 const desc = "Entusiasta de la tecnología que desde su infancia ha desarrollado una pasión por el hardware y el ensamblaje de ordenadores. Como técnico en sistemas microinformáticos y redes, encuentra satisfacción resolviendo desafíos tecnológicos. <br /><br />Actualmente, se encuentra en su segundo año de estudios en desarrollo de aplicaciones multiplataforma y cuenta con experiencia en Java/Kotlin, SQL y CSS. <br /><br />Su dedicación y conocimientos en el mundo de la tecnología son la base para aportar soluciones innovadoras a cualquier proyecto."
 export const SecondPage = () => {
